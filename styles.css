@@ -1,0 +1,121 @@
+body {
+    color: #4c4b4b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo__wrapper {
+    text-align: center;
+}
+
+.currentMatch__wrapper {
+    width: 30%;
+    height: 115px;
+    margin: 0 auto;
+    position: relative;
+    background: url('./vs.jpg') no-repeat 0px 15px;
+    background-size: contain;
+}
+
+tr.highlighted td{
+    font-size: 20px;
+    color: #ff7e00;
+    font-weight: bold;
+}
+
+tr.second td{
+    font-size: 15px;
+}
+
+tr.third td{
+    font-size: 13px;
+}
+
+.currentMatch__wrapper .player{
+    top: 48px;
+    font-size: 31px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.scores {
+    margin: 40px 0;
+}
+
+.current-match {
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+td {
+    padding: 10px 30px;
+}
+
+.slidecontainer {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.currentMatch__wrapper .player1{
+    left: -90px;
+}
+
+.currentMatch__wrapper .player2{
+    right: -90px;
+}
+
+.current-match button{
+    height: 25px;
+    padding: 3px 16px 6px 12px;
+    margin-top: 3px;
+}
+
+input {
+    padding: 7px;
+    border-radius: 5px;;
+    border: 1px solid #CCC;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+notification-hub {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #cddbe9;
+    border: 1px solid #CCC;
+}
+
+notification-trigger {
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    .gray {
+        background-color: #CCC;
+    }
+    .red {
+        background-color: red;
+    }
+}
+
+notification-footer {
+    padding: 30px;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+}
+
+.notif {
+    margin: 10px 0;
+}
